@@ -80,7 +80,7 @@ Acesse o site: [SAP](https://www.sap.com/brazil/index.html?url_id=auto_hp_redire
 
   > Caso alguma das opções acabe falhando, reinicie a página e tente novamente!
 
-  ### Passo 3 - Configurando BTP Boosters
+### Passo 3 - Configurando BTP Boosters
 
 - Certifique-se de que está dentro de Trial | Global Account (Lembrando que cada um terá um número diferente em Global Account)
 - Clique em Boosters no canto esquerdo da tela
