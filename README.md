@@ -174,3 +174,162 @@ Acesse o site: [SAP API](https://api.sap.com)
   - WebIDEEnabled: true
 
   ![410312724-18037b65-7ee2-4f34-b94d-58254f23c60e](https://github.com/user-attachments/assets/41c562c3-444d-42b7-8032-86251be21d68)
+ 
+### Passo 6 - SAP Build
+
+- Clique em "Services", depois em "Instances and Subscriptions"
+
+  ![410315444-06961459-f73f-4c95-8d0e-760b94b130de](https://github.com/user-attachments/assets/43dc3feb-3ca8-4105-bdf0-8caf99a5162c)
+
+- Clique em "SAP Build Apps"
+
+  ![410315702-a9919cbf-47d1-42bd-b6a8-d62005051f0f](https://github.com/user-attachments/assets/fe79c3b4-432b-42c6-a762-6b38d1626535)
+
+- Clique em "Criar"
+
+  ![image](https://github.com/user-attachments/assets/c2f83818-3f19-43ba-82df-ea3da8db1801)
+
+- Clique em "Build an Application"
+
+  ![image](https://github.com/user-attachments/assets/d1199fe1-7bb9-40d1-bbf7-e67d0bcec019)
+
+- Clique em "SAP Build Apps"
+
+  ![image](https://github.com/user-attachments/assets/99c67b0a-f35b-43ed-9a23-c23286ace12c)
+
+- Clique em "Web & Mobile Application"
+
+  ![image](https://github.com/user-attachments/assets/6aee86e9-242e-4433-91ae-47ded698882f)
+
+- Nomeie o seu projeto de "SalesOrderApp" e clique em "Create"
+
+  ![image](https://github.com/user-attachments/assets/73acd208-c8cc-4da3-9212-faa7c1a78a8a)
+
+---
+
+- Se tudo der certo, você estará nesta página
+
+  ![image](https://github.com/user-attachments/assets/20597c8e-c883-47cd-b04e-474025908d52)
+
+- Caso o app não tenha aberto sozinho, abra-o no menu inicial do SAP Build
+
+  ![image](https://github.com/user-attachments/assets/c18a63a4-88f9-463c-b0c9-ee2c2b612656)
+
+---
+
+- Troque o modo de visualização para "Mobile"
+
+  ![image](https://github.com/user-attachments/assets/ba62e858-8ec6-4777-af79-be8655a53983)
+
+---
+
+### Passo 7 - Adicionar Integração com o S/4HANA
+
+- Clique em "Integrations"
+
+  ![image](https://github.com/user-attachments/assets/47234369-2d50-4c8d-8dc1-5a0486d8f117)
+
+- Clique em "ADD INTEGRATION"
+
+  ![image](https://github.com/user-attachments/assets/33c29818-f065-4c33-88f8-ed2e7821706f)
+
+- Clique em "BTP DESTINATIONS" dentro de SAP Systems
+
+  ![image](https://github.com/user-attachments/assets/7628aad0-ec4a-45a1-bb3b-7d079f6450fb)
+
+- Selecione "S4HANA_JORNADA"
+
+  ![image](https://github.com/user-attachments/assets/807865f0-625f-402a-ad59-20ade20d86ae)
+
+- Clique em "Enable Data Entity"
+
+  ![image](https://github.com/user-attachments/assets/cdf537a9-b04d-4d19-b314-6ed03d47b30c)
+
+### Passo 8 - Editando a Interface do Usuário
+
+- Clique em "User Interface" e edite o título e subtítulo conforme o exemplo:
+  - **Título**: Sales Order - Seu Nome
+  - **Subtítulo**: Aplicativo de busca de dados de todas as Sales Orders do S/4HANA do Sandbox encontrados no api.sap.com
+
+    ![image](https://github.com/user-attachments/assets/ee9cd6ed-f299-4915-bb28-e58b3d1a81e9)
+
+- Adicione um "Button" com o nome de "Buscar Sales Order QrCode"
+
+  > Para adicionar o "Button", arraste-o até onde deseja colocá-lo
+
+  ![image](https://github.com/user-attachments/assets/6d4b5a87-7f56-4e6a-bf36-42ca05f64842)
+
+- Clique em "Core", depois em "MARKETPLACE"
+
+  ![image](https://github.com/user-attachments/assets/808e5c87-ed74-4090-9c63-c97ef4f1b40f)
+
+- Pesquise "list", depois clique em "Icon list"
+
+  ![image](https://github.com/user-attachments/assets/94469f4f-2f23-4ad9-b6f4-728c18e2f6d6)
+
+- Clique em Install
+
+  ![image](https://github.com/user-attachments/assets/1c977002-fc5b-494a-a2fe-a8f60fb76cbd)
+
+- Dentro de "INSTALLED", arraste "Icon list" para cima do "Button"
+
+  ![image](https://github.com/user-attachments/assets/db73d3e6-0e35-47a8-a8be-c9ebd91660b1)
+
+### Passo 9 - Integrando os Dados de Sales Order
+
+- Clique em "Icon list" e depois clique em "Configure"
+
+  ![image](https://github.com/user-attachments/assets/a8138b48-59cf-4544-9e6c-538fd46f20c9)
+
+- Clique em "Sales Order"
+
+  ![image](https://github.com/user-attachments/assets/bddd6623-c9f0-407a-9daa-c0b1712d9e6b)
+
+- Arraste e organize de acordo com as instruções:
+
+  | Content  | SalesOrder       |
+  |----------|------------------|
+  | iconName | Clique no ícone de raio e escreva "" depois aperte em "submit" |
+  | id       | SalesOrder       |
+  | label    | SalesOrderType   |
+  | title    | TotalNetAmount (está mais abaixo da página) |
+
+    ![image](https://github.com/user-attachments/assets/4409ee35-3497-4cde-b4fc-9d79e9baea00)
+    ![image](https://github.com/user-attachments/assets/544ba4e9-f00b-4bc4-8813-04d183772fd5)
+    ![image](https://github.com/user-attachments/assets/eaecbaaa-7db4-494a-b031-056ddd283707)
+
+- Clique em "Properties"
+
+  ![image](https://github.com/user-attachments/assets/20e2a910-9769-4e88-abe5-649d8134a3b6)
+
+- Clique em "OPTIONAL", depois em "Pagination"
+
+  ![image](https://github.com/user-attachments/assets/a985bd36-9692-4f41-892e-616a75555e0c)
+
+- Clique em "Object With Properties"
+
+  ![image](https://github.com/user-attachments/assets/e10348fc-d001-4617-800c-30c8777252c1)
+
+- Clique em "Page size", depois em "Static number"
+
+  ![image](https://github.com/user-attachments/assets/08aa3256-3e33-43a7-b95f-5c6cfbfd9ce6)
+  ![image](https://github.com/user-attachments/assets/164bfb13-4083-4fdf-a58d-729ba45869a6)
+
+- Defina "Page size" para 20
+
+  ![image](https://github.com/user-attachments/assets/a649e4d7-85db-45fd-b174-b041b67a9639)
+
+- Clique em "Include total count", depois em Static true/false
+
+  ![image](https://github.com/user-attachments/assets/2fb4251f-9c48-4342-89db-fc35134419ce)
+  ![image](https://github.com/user-attachments/assets/9a8b80d1-d36f-4ebd-9cb7-9008e4df55ca)
+
+- Clique em "Save"
+
+  ![image](https://github.com/user-attachments/assets/1bebdd8e-e09f-44a4-828c-5eabc66df227)
+
+- Clique em "SAVE AND EXIT"
+
+  ![image](https://github.com/user-attachments/assets/a3432cc8-c486-4414-b5db-3b07f7e41b44)
+
+### Passo 10 - Customize do seu jeito explorando as ferramentas do SAP Build Apps
