@@ -10,16 +10,6 @@
 
 ---
 
-### SAP - 
-
-### BTP - 
-
-### FUNCIONAL - 
-
-### ABAP - 
-
----
-
 ## Como desenvolver o Projeto!
 
 ### Baixe o Aplicativo para testar o Projeto:
