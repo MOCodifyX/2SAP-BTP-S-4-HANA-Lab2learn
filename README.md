@@ -1,4 +1,14 @@
-# 🚀 SAB BTP S4HANA Lab2learn 🚀
+# 🚀 SAB BTP S4HANA Lab2learn 🚀 - Readme em Edição sujeito a alterações!
+
+## Projeto: Aplicativo SAP BTP com S/4HANA
+
+Este projeto foi desenvolvido durante o evento Lab2learn, utilizando as tecnologias SAP, BTP e S/4HANA. O objetivo foi criar um aplicativo funcional com foco na gestão de Sales Orders, explorando funcionalidades práticas e integração tecnológica.
+
+# 📌 Funcionalidades do Aplicativo
+
+📝 Interface de Sales Order: Permite visualizar e gerenciar pedidos de vendas de forma simples e eficiente.
+📲 Leitura de QR Code: Botão funcional para escanear QR Codes, com exibição de dados em uma nova página.
+🔍 Detalhamento de Itens: Exibe informações detalhadas ao selecionar qualquer item da lista.
 
 ## 📅 Cronograma das Aulas  
 
@@ -144,6 +154,7 @@ Acesse o site: [SAP API](https://api.sap.com)
 - Acesse sua "Trial" e clique em "Connectivity" e depois em "Destinations"
 
   ![image](Readme-Images/23.png)
+  
   ![image](Readme-Images/24.png)
 
 - Clique em "Create Destination" e configure conforme abaixo:
